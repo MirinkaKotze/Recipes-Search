@@ -17,7 +17,7 @@ import "./App.scss";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/Recipes-Search">
         <ScrollToTop>
           <Routes>
             <Route path="/" exact element={<HomePage />} />
