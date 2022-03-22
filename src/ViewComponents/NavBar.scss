@@ -1,0 +1,52 @@
+// NavBar Styles
+
+.nav-bar {
+  &__menu-bars {
+    background-color: none;
+    cursor: pointer;
+    padding-top: 50px;
+  }
+  &__menu {
+    background-color: #2f2f2f;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    transition: 850ms;
+    &.active {
+      right: 0;
+      transition: 350ms;
+    }
+  }
+}
+
+// Hiden Side Bar
+.menu__items {
+  &--toggle {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    width: 250px;
+  }
+  &--text {
+    font-family: "Karla", sans-serif;
+    list-style: none;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    text-align: center;
+    margin: 30px 0px 50px 30px;
+    width: fit-content;
+    & a {
+      text-decoration: none;
+      color: white;
+    }
+    &:hover {
+      border-bottom: solid 2px white;
+      font-size: 35px;
+    }
+  }
+}

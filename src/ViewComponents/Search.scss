@@ -1,0 +1,75 @@
+/* SEARCHBLOCK STYLES */
+.search {
+  &__header {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0.08em;
+    margin: 100px 0px 0px 80px;
+  }
+  &__input {
+    &--wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 140px 0px 170px 0px;
+    }
+    &--bar {
+      padding: 20px 200px 20px 20px;
+      font-size: 30px;
+    }
+    &--button {
+      margin-left: 120px;
+      padding: 20px 30px;
+      font-size: 25px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 800;
+      cursor: pointer;
+      color: #2f2f2f;
+      &:hover {
+        background-color: #2f2f2f;
+        color: white;
+        border: white solid 2px;
+      }
+    }
+  }
+}
+
+// MEDIA QUERIES
+@media (max-width: 1300px) {
+  .search {
+    &__header {
+      text-align: center;
+      margin: 100px 0px 0px 0px;
+      line-height: 40px;
+    }
+    &__input {
+      &--wrapper {
+        padding: 100px 0px 100px 0px;
+        flex-direction: wrap;
+        flex-direction: column;
+        justify-content: center;
+      }
+      &--bar {
+        padding: 20px 50px 20px 20px;
+        font-size: 20px;
+      }
+      &--button {
+        margin-left: 0px;
+        margin-top: 50px;
+        padding: 10px 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 290px) {
+  .search {
+    &__input {
+      &--bar {
+        padding: 20px 40px 20px 20px;
+        font-size: 15px;
+      }
+    }
+  }
+}

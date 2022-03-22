@@ -1,0 +1,135 @@
+/* HEADER STYLES */
+
+// Container with Backgound-image
+.header {
+  &__container {
+    background-color: white;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+}
+
+// Nav Bar
+.header__nav {
+  &--wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+  }
+  &--logo {
+    max-width: 150px;
+    max-height: 150px;
+  }
+  &-bar--wrapper {
+    margin: 55px;
+  }
+}
+
+// Title & Moto Styles
+.header__title {
+  &--wrapper {
+    margin: 100px 0px 0px 80px;
+  }
+  &--text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 100%;
+    text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    letter-spacing: 3px;
+    max-width: fit-content;
+  }
+  &--moto {
+    font-family: "Karla", sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 100%;
+    letter-spacing: 5px;
+    color: white;
+    padding: 30px 0px 0px 86px;
+  }
+}
+
+// MEDIA QUERIES
+@media (max-width: 1300px) {
+  .header__container {
+    height: 760px;
+  }
+  // Nav Bar
+  .header__nav {
+    &--wrapper {
+      padding: 30px 50px;
+    }
+    &--logo {
+      max-width: 100px;
+      max-height: 100px;
+    }
+    &-bar--wrapper {
+      margin: 20px;
+    }
+  }
+  // Title & Moto Styles
+  .header__title {
+    &--wrapper {
+      margin: 100px 0px 0px 60px;
+    }
+    &--text {
+      font-size: 50px;
+    }
+    &--moto {
+      font-size: 25px;
+      padding: 25px 0px 0px 0px;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .header__nav {
+    &--wrapper {
+      padding: 30px 20px;
+    }
+  }
+  .header__title {
+    &--wrapper {
+      margin: 100px 0px 0px 30px;
+    }
+    &--text {
+      font-size: 50px;
+    }
+    &--moto {
+      font-size: 25px;
+      padding: 25px 0px 0px 0px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .header__title {
+    &--text {
+      font-size: 35px;
+    }
+  }
+}
+
+@media (max-width: 290px) {
+  .header__nav {
+    &--wrapper {
+      padding: 30px 10px;
+    }
+  }
+  .header__title {
+    &--wrapper {
+      margin: 100px 0px 0px 20px;
+    }
+    &--text {
+      font-size: 30px;
+    }   
+  }
+}
+

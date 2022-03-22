@@ -1,0 +1,138 @@
+/* RECIPE CARD STYLES */
+
+.recipe-card {
+  &__container {
+    width: 280px;
+    padding: 30px 0px;
+  }
+  &__image {
+    border-radius: 12px 12px 0px 0px;
+    width: 280px;
+    height: 260px;
+    object-fit: cover;
+  }
+  &__wrapper {
+    background-color: white;
+    color: #2f2f2f;
+    border-radius: 0px 0px 12px 12px;
+  }
+  &__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    text-align: center;
+    padding: 25px 15px;
+    height: 110px;
+  }
+  &__info {
+    &--wrapper {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      grid-template-rows: 1fr;
+      padding-bottom: 25px;
+    }
+    &--fav-button-wrapper {
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+      text-align: center;
+    }
+    &--fav-button {
+      border: none;
+      background-color: white;
+      cursor: pointer;
+    }
+    &--category {
+      grid-column: 2 / 3;
+      grid-row: 1 / 2;
+      font-weight: 500;
+      font-size: 20px;
+      text-align: center;
+    }
+    &--more-button-wrapper {
+      grid-column: 3 / 4;
+      grid-row: 1 / 2;
+      text-align: center;
+    }
+    &--more-button {
+      border: none;
+      background-color: white;
+      cursor: pointer;
+    }
+  }
+}
+
+// MEDIA QUERIES
+@media (max-width: 800px) {
+  .recipe-card {
+    &__container {
+      width: 350px;
+      display: flex;
+    }
+    &__image {
+      border-radius: 12px 0px 0px 12px;
+      width: 180px;
+      height: 250px;
+    }
+    &__title {
+      font-size: 23px;
+    }
+    &__wrapper {
+      background-color: white;
+      color: #2f2f2f;
+      border-radius: 0px 12px 12px 0px;
+      width: 180px;
+    }
+    &__info {
+      &--wrapper {
+        grid-template-rows: 2fr;
+        padding-bottom: 0px;
+      }
+      &--fav-button-wrapper {
+        grid-row: 2 / 3;
+        margin: 10px 0px 0px 20px;
+      }
+      &--category {
+        grid-column: 1 / 3;
+        font-size: 18px;
+        margin-left: 20px;
+      }
+      &--more-button-wrapper {
+        grid-row: 2 / 3;
+        margin: 10px 40px 0px 0px;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .recipe-card {
+    &__image {
+      width: 150px;
+      height: 250px;
+    }
+    &__wrapper {
+      width: 150px;
+    }
+  }
+}
+
+@media (max-width: 290px) {
+  .recipe-card {
+    &__container {
+      width: 230px;
+      display: block;      
+    }
+    &__image {
+      border-radius: 12px 12px 0px 0px;
+      width: 230px;
+      height: 230px;
+    }
+    &__wrapper {
+      border-radius: 0px 0px 12px 12px;
+      width: 230px;
+    }
+  }
+}

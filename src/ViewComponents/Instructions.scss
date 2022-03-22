@@ -1,0 +1,58 @@
+// Instructions Block Styles
+
+.instructions {
+  &__title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 140px 0px 60px 60px;
+  }
+  &__info {
+    font-family: "Karla", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0px 60px 0px 60px;
+    line-height: 150%;
+    padding-bottom: 60px;
+  }
+  &__video--wrapper {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+  }
+}
+
+// MEDIA QUERIES
+@media (max-width: 800px) {
+  .instructions {
+    &__title {
+      font-size: 28px;
+      margin: 100px 0px 60px 30px;
+    }
+    &__info {
+      font-size: 18px;
+      margin: 0px 30px 60px 30px;
+      text-align: center;
+    }
+    &__video--wrapper {
+      padding-bottom: 80px;
+      max-width: 350px;
+      margin-left: 20px;
+    }
+  }
+}
+
+@media (max-width: 290px) {
+  .instructions {
+    &__title {
+      font-size: 25px;
+    }
+    &__info {
+      font-size: 15px;
+    }
+    &__video--wrapper {
+      max-width: 250px;
+      margin-left: 15px;
+    }
+  }
+}

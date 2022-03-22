@@ -1,0 +1,80 @@
+// Cuisine Block on HomePage
+
+.cuisine {
+  &__container {
+    padding-bottom: 100px;
+  }
+  &__header {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0.08em;
+    margin: 100px 0px 0px 80px;
+  }
+  &__wrapper {
+    margin: 50px 60px 0px 60px;
+  }
+  &__country {
+    padding: 30px;
+    &--link {
+      text-decoration: none;
+      text-align: center;
+      padding-bottom: 10px;
+      &:hover {
+        border-bottom: solid 2px white;
+      }
+    }
+    &--flag {
+      margin-bottom: 15px;
+      width: 330px;
+      height: 200px;
+    }
+    &--name {
+      font-family: "Karla", sans-serif;
+      font-weight: 500;
+      font-size: 40px;
+      letter-spacing: 0.05em;
+      color: #ffffff;
+      padding-bottom: 5px;
+    }
+  }
+}
+
+// MEDIA QUERIES
+@media (max-width: 1000px) {
+  .cuisine {
+    &__header {
+      text-align: center;
+      margin: 100px 20px 0px 20px;
+    }
+    &__wrapper {
+      margin: 50px 40px 0px 40px;
+    }
+    &__country {
+      padding: 20px;
+      &--flag {
+        width: 130px;
+        height: 90px;
+      }
+      &--name {
+        font-size: 25px;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .cuisine {
+    &__wrapper {
+      margin: 50px 40px 0px 35px;
+    }
+  }
+}
+
+@media (max-width: 290px) {
+  .cuisine {
+    &__wrapper {
+      margin: 50px 40px 0px 40px;
+    }
+  }
+}
