@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Recipes-Search/static/css/main.2c4ebed0.css",
-    "main.js": "/Recipes-Search/static/js/main.351f05b1.js",
+    "main.js": "/Recipes-Search/static/js/main.bbf3d787.js",
     "static/media/HomePage-BannerImage2.jpg": "/Recipes-Search/static/media/HomePage-BannerImage2.236694561ef7b7b8ebba.jpg",
     "static/media/HomePage-BannerImage1.png": "/Recipes-Search/static/media/HomePage-BannerImage1.3ba469e91ef0aaf6c4f0.png",
     "static/media/HomePage-BannerImage3.jpeg": "/Recipes-Search/static/media/HomePage-BannerImage3.7657224dca0cdfbad535.jpeg",
@@ -22,10 +22,10 @@
     "static/media/slick.woff": "/Recipes-Search/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Recipes-Search/index.html",
     "main.2c4ebed0.css.map": "/Recipes-Search/static/css/main.2c4ebed0.css.map",
-    "main.351f05b1.js.map": "/Recipes-Search/static/js/main.351f05b1.js.map"
+    "main.bbf3d787.js.map": "/Recipes-Search/static/js/main.bbf3d787.js.map"
   },
   "entrypoints": [
     "static/css/main.2c4ebed0.css",
-    "static/js/main.351f05b1.js"
+    "static/js/main.bbf3d787.js"
   ]
 }
