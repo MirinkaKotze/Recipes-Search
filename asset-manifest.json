@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Recipes-Search/static/css/main.2c4ebed0.css",
+    "main.js": "/Recipes-Search/static/js/main.351f05b1.js",
+    "static/media/HomePage-BannerImage2.jpg": "/Recipes-Search/static/media/HomePage-BannerImage2.236694561ef7b7b8ebba.jpg",
+    "static/media/HomePage-BannerImage1.png": "/Recipes-Search/static/media/HomePage-BannerImage1.3ba469e91ef0aaf6c4f0.png",
+    "static/media/HomePage-BannerImage3.jpeg": "/Recipes-Search/static/media/HomePage-BannerImage3.7657224dca0cdfbad535.jpeg",
+    "static/media/Seafood.png": "/Recipes-Search/static/media/Seafood.14edeba66193cc6fc608.png",
+    "static/media/Pork.png": "/Recipes-Search/static/media/Pork.207691ad8c2ef96ff872.png",
+    "static/media/Beef.png": "/Recipes-Search/static/media/Beef.3e57e2f711c717110cdb.png",
+    "static/media/Side.png": "/Recipes-Search/static/media/Side.51a6d038413c005446e9.png",
+    "static/media/Vegetarian.png": "/Recipes-Search/static/media/Vegetarian.d0482f72d500164ea72f.png",
+    "static/media/Chicken.png": "/Recipes-Search/static/media/Chicken.39114af110d50cc3d978.png",
+    "static/media/Dessert.png": "/Recipes-Search/static/media/Dessert.62fc2c196052f13c3d44.png",
+    "static/media/notification.svg?s3g3t9": "/Recipes-Search/static/media/notification.5d0158671dd860c714c4.svg",
+    "static/media/slick.svg": "/Recipes-Search/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/notification.eot": "/Recipes-Search/static/media/notification.3657084dc0419605a91c.eot",
+    "static/media/slick.eot": "/Recipes-Search/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/notification.woff?s3g3t9": "/Recipes-Search/static/media/notification.c392cd33d9d9de730f9d.woff",
+    "static/media/notification.ttf?s3g3t9": "/Recipes-Search/static/media/notification.c5d9251ea82e42f75381.ttf",
+    "static/media/slick.ttf": "/Recipes-Search/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Recipes-Search/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Recipes-Search/index.html",
+    "main.2c4ebed0.css.map": "/Recipes-Search/static/css/main.2c4ebed0.css.map",
+    "main.351f05b1.js.map": "/Recipes-Search/static/js/main.351f05b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c4ebed0.css",
+    "static/js/main.351f05b1.js"
+  ]
+}
