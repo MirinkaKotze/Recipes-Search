@@ -1,7 +1,7 @@
 # Recipes-Search
 Beetroot Academy - Final Project
 
-DINEIN is a React recipe search website.
+DINEIN is a React recipe search web page.
 
   It gives you a selection of 10 Top Rated Recipes.
   It allows you to search any recipe or to search it based on an ingredient.
@@ -14,7 +14,7 @@ DINEIN is a React recipe search website.
     and some recipes even includes a demonstration video!
 
 DESIGN:
-  I created the design for the website on Figma: https://www.figma.com/file/9E2WqZDgXIFL41g6e7wNpG/DINEIN?node-id=0%3A1
+  I created the design for the web page on Figma: https://www.figma.com/file/9E2WqZDgXIFL41g6e7wNpG/DINEIN?node-id=0%3A1
   for both desktop and Mobile view.
 
 LIBRARIES:
@@ -27,13 +27,13 @@ LIBRARIES:
   
 DATA:
  TheMealDBAPI is used for all the recipe information. 
- LOCAL STORAGE is used to save the list of favorites & allows the favorites to be available after the website was closed.
+ LOCAL STORAGE is used to save the list of favorites & allows the favorites to be available after the web page was closed.
 
 STYLING:
 Is done with SASS / SCSS files.
 
 RESPONSIVE:
-  The website is fully responisve and styling is done for every device.
+  The web page is fully responisve and styling is done for every device.
   
 URL:
   The url changes based on the search and page viewed.
