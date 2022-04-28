@@ -1,6 +1,8 @@
 # Recipes-Search
 Beetroot Academy - Final Project
 
+Live Page URL: https://mirinkakotze.github.io/Recipes-Search/
+
 DINEIN is a React recipe search web page.
 
   It gives you a selection of 10 Top Rated Recipes.
